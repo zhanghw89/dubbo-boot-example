@@ -1,0 +1,10 @@
+FROM java:8
+VOLUME /TMP
+RUN mkdir /app
+ADD demo-provider-1.0.0-SNAPSHOT.jar
+ADD runboot.sh /app/
+RUN bash -c 'touch /app/demo-provider-1.0.0-SNAPSHOT.jar'
+WORKDIR /app
+RUN chomd a+x runboot.sh
+EXPOSE 8888
+CMD /app/runboot.sh
