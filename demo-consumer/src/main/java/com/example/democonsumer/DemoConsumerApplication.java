@@ -1,4 +1,4 @@
-package com.example.democomsumer;
+package com.example.democonsumer;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.example.HelloService;
@@ -8,13 +8,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import javax.annotation.PostConstruct;
 
 @SpringBootApplication
-public class DemoComsumerApplication {
+public class DemoConsumerApplication {
 
     @Reference(version = "1.0.0")
     private HelloService demoService;
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoComsumerApplication.class, args);
+        SpringApplication.run(DemoConsumerApplication.class, args);
         while (true) {
             try {
                 Thread.sleep(1000);
