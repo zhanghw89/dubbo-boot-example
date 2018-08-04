@@ -64,9 +64,22 @@
         <!-- 监控-->
         <dependency>
             <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-transport-simple-http</artifactId>
+            <version>0.1.0</version>
+        </dependency>
+        <!--Sentinel 提供 Dubbo 的相关适配 Sentinel Dubbo Adapter，主要包括针对 Service Provider 和 Service Consumer 实现的 Filter -->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-dubbo-adapter</artifactId>
+            <version>0.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
             <artifactId>sentinel-core</artifactId>
             <version>0.1.0</version>
         </dependency>
+
+
 
         <!-- https://mvnrepository.com/artifact/com.101tec/zkclient -->
         <dependency>

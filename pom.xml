@@ -20,7 +20,7 @@
     <description>dubbo demo project for Spring Boot</description>
 
     <modules>
-        <module>demo-comsumer</module>
+        <module>demo-consumer</module>
         <module>demo-provider</module>
     </modules>
 
