@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo-consumer/demo-comsumer.iml" filepath="$PROJECT_DIR$/demo-consumer/demo-comsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-consumer/demo-consumer.iml" filepath="$PROJECT_DIR$/demo-consumer/demo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-provider/demo-provider.iml" filepath="$PROJECT_DIR$/demo-provider/demo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dubbo-boot-example.iml" filepath="$PROJECT_DIR$/.idea/dubbo-boot-example.iml" />

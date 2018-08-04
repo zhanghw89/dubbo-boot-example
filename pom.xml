@@ -12,11 +12,11 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>dubbo-demo-all</artifactId>
+    <artifactId>dubbo-boot-exampel-all</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
-    <name>dubbo-demo</name>
+    <name>dubbo-boot-example-all</name>
     <description>dubbo demo project for Spring Boot</description>
 
     <modules>
